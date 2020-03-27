@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+:root {
+  --mainPink: #d17faf;
+  --lightPink: #ee9bbdd7;
+  --mainWhite: #f3f3f3;
+  --mainDark: #ac1973;
+  --mainYellow: #ffca1daf;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  color: var(--mainDark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: "Oswald", sans-serif;
+  background: var(--mainWhite);
+  color: var(--mainDark);
 }
 
-.App-link {
-  color: #61dafb;
+.text-title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-pink {
+  color: var(--mainPink);
+}
+
+.text-bright {
+  color: var(--lightPink);
+}
+
+.btn-black {
+  margin: 0 .5rem 1rem;
+  padding: .5rem .7rem .5rem .7rem;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--mainDark);
+  border: .1rem solid var(--mainDark);
+  cursor: pointer;;
+}
+
+.btn-black:hover {
+  background: var(--mainDark);
+  color: var(--mainWhite);
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+  margin-bottom: .5rem;
 }

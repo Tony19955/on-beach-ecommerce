@@ -1,0 +1,81 @@
+.navbar {
+  max-width: 100%;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem .5rem 1rem;
+  border-bottom: .1rem solid var(--lightPink);
+}
+
+.logo-link,
+.products-link,
+.cart-link {
+  width: 33%;
+}
+
+.logo-link {
+  text-align: left;
+}
+
+.products-link {
+  text-align: center;
+}
+
+.cart-link {
+  text-align: right;
+}
+
+.navbar-logo {
+  display: none;
+}
+
+.navbar-logo-mini {
+  display: block;
+}
+
+.products-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  background: none;
+}
+
+.cart-btn {
+  font-weight: 700;
+  padding: .4rem;
+  background: white;
+  border: .1rem solid var(--mainDark);
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.cart-btn:hover {
+  background: var(--lightPink);
+}
+
+.cart-btn i {
+  margin-right: .5rem;
+}
+
+/* RESPONSIVE DESIGN */
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   
+  .navbar-logo-mini {
+    display: none;
+  }
+
+  .navbar-logo {
+    display: block;
+  }
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

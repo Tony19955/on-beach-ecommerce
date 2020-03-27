@@ -1,0 +1,19 @@
+.cart-totals-container {
+  text-align: right;
+}
+
+.clear-cart-btn {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: .1rem solid var(--mainYellow);
+  color: var(--mainYellow);
+  border-radius: .5rem;
+  transition: all .2s linear;
+}
+
+.clear-cart-btn:hover {
+  background: var(--mainYellow);
+  color: var(--mainWhite);
+}

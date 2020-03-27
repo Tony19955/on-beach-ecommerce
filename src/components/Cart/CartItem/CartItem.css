@@ -1,0 +1,28 @@
+.cartitem-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-bottom: .1rem solid var(--lightPink);
+}
+
+.cartitem-img {
+  max-width: 5rem;
+  height: auto;
+}
+
+.cartitem-title {
+  text-align: center;
+  margin: .5rem 0;
+}
+
+.cartitem-price {
+  margin: .5rem 0 1rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}  
