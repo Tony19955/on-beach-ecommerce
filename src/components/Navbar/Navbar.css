@@ -1,17 +1,20 @@
 .navbar {
-  max-width: 100%;
+  top: 0;
+  width: 100%;
+  z-index: 10;
   display: flex;
+  position: fixed;
+  padding: .5rem 1rem;
   background: white;
   align-items: center;
   justify-content: space-between;
-  padding: .5rem 1rem .5rem 1rem;
   border-bottom: .1rem solid var(--lightPink);
 }
 
 .logo-link,
 .products-link,
 .cart-link {
-  width: 33%;
+  width: calc(100% / 3);
 }
 
 .logo-link {

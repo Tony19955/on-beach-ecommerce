@@ -176,5 +176,3 @@ class ProductProvider extends Component {
 
 const ProductConsumer = ProductContext.Consumer;
 export { ProductProvider, ProductConsumer };
-
-//YouTube 5:01:19
