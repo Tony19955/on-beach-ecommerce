@@ -13,10 +13,10 @@ export default class Navbar extends Component {
           <img src={logoMini} alt="store" className="navbar-logo-mini"/>
         </Link>        
         <Link to="/" className="products-link">
-          <button className="products-btn">Products</button>             
+          <button className="navbar-btn">Products</button>             
         </Link>          
         <Link to="/cart" className="cart-link">
-          <button className="cart-btn">
+          <button className="navbar-btn">
             <i className="fas fa-cart-plus" />
             Cart
           </button>

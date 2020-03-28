@@ -36,7 +36,7 @@
 .product-detail-title {
   margin-top: 2rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .product-detail-info {
@@ -52,15 +52,6 @@
   width: 100%;
   text-align: center;
   margin-top: 3rem;
-}
-
-.product-detail-back-btn,
-.product-detail-add-to-cart-btn {
-  font-size: 1rem;
-  padding: .75rem;
-  border-radius: 1rem;
-  border: .1rem solid var(--mainDark);
-  font-weight: bold;
 }
 
 .product-detail-back-btn:hover {

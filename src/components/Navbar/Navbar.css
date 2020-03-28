@@ -5,7 +5,7 @@
   display: flex;
   position: fixed;
   padding: .5rem 1rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   align-items: center;
   justify-content: space-between;
   border-bottom: .1rem solid var(--lightPink);
@@ -37,26 +37,20 @@
   display: block;
 }
 
-.products-btn {
-  font-size: 1rem;
+.navbar-btn {
+  font-size: .9rem;
   font-weight: 700;
-  background: none;
+  font-family: 'Comic Neue', cursive;  
+  letter-spacing: .1rem;
+  color: var(--mainPink);  
+  transition: all .2s linear;
 }
 
-.cart-btn {
-  font-weight: 700;
-  padding: .4rem;
-  background: white;
-  border: .1rem solid var(--mainDark);
-  border-radius: .5rem;
-  transition: .3s;
+.navbar-btn:hover {
+  color: var(--mainDark);
 }
 
-.cart-btn:hover {
-  background: var(--lightPink);
-}
-
-.cart-btn i {
+.navbar-btn i {
   margin-right: .5rem;
 }
 

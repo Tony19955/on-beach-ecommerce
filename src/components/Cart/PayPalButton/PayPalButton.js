@@ -1,5 +1,6 @@
 import React from 'react';
 import PaypalExpressBtn from 'react-paypal-express-checkout';
+import './PayPalButton.css';
  
 export default class MyApp extends React.Component {
   render() {

@@ -32,24 +32,6 @@
   margin-top: 1rem;
 }
 
-.modal-continue-btn,
-.modal-go-to-cart-btn {
-  font-size: 1rem;
-  padding: .75rem;
-  border-radius: 1rem;
-  border: .1rem solid var(--mainDark);
-  font-weight: bold;
-}
-
-.modal-continue-btn:hover {
-  color: white;
-  background: var(--mainDark);
-}
-
-.modal-go-to-cart-btn:hover {
-  background: var(--mainYellow);
-}
-
 .modal-go-to-cart-btn {
   margin-top: .5rem;
 }

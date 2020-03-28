@@ -16,9 +16,9 @@ function CartTotals({ value, history }) {
             Clear cart
           </button>
         </Link>
-        <h5 className="text-title">Sub total: $ {cartSubTotal}</h5>
-        <h5 className="text-title">Tax: $ {cartTax}</h5>
-        <h5 className="text-title">Cart total: $ {cartTotal}</h5>
+        <h5 className="cart-totals-text text-title">Sub total: $ {cartSubTotal}</h5>
+        <h5 className="cart-totals-text text-title">Tax: $ {cartTax}</h5>
+        <h5 className="cart-totals-text text-title">Cart total: $ {cartTotal}</h5>
         <PayPalButton total={cartTotal} clearCart={clearCart} history={history} />
       </section>
     </React.Fragment>

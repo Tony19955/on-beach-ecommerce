@@ -24,14 +24,14 @@ class Modal extends Component {
                   <div className="modal-btns">
                     <Link to='/'>
                       <button 
-                        className="modal-continue-btn"
+                        className="modal-continue-btn back-btn"
                         onClick={() => closeModal()}
                       > Continue shopping
                       </button>
                     </Link>
                     <Link to='/cart'>
                       <button 
-                        className="modal-go-to-cart-btn"
+                        className="modal-go-to-cart-btn add-btn"
                         onClick={() => closeModal()}
                       > Go to cart
                       </button>

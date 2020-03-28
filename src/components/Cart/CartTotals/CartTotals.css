@@ -17,3 +17,14 @@
   background: var(--mainYellow);
   color: var(--mainWhite);
 }
+
+.cart-totals-text {
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .cart-totals-container {
+    margin: 2rem 2rem 0 0;
+    align-self: flex-end;
+  }
+}

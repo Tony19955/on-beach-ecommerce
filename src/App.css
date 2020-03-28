@@ -12,32 +12,48 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Comic Neue', cursive;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+
 button {
   border: none;
   outline: none;
   cursor: pointer;
   background: none;
+  font-family: 'Comic Neue', cursive;
+}
+
+.back-btn {
+  font-size: 1rem;
+  padding: .75rem;
+  font-weight: bold;
+  border-radius: 1rem;
   color: var(--mainDark);
+  border: .1rem solid var(--mainDark);
+  transition: all .1s linear;
 }
 
-body {
-  font-family: "Oswald", sans-serif;
-  background: var(--mainWhite);
-  color: var(--mainDark);
+.back-btn:hover {
+  color: var(--mainWhite);
+  background: var(--mainDark);
 }
 
-.text-title {
-  font-family: 'Permanent Marker', cursive;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
+.add-btn {
+  font-size: 1rem;
+  padding: .75rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  color: var(--mainYellow);
+  border: .1rem solid var(--mainYellow);
+  transition: all .1s linear;
 }
 
-.text-pink {
-  color: var(--mainPink);
-}
-
-.text-bright {
-  color: var(--lightPink);
+.add-btn:hover {
+  color: var(--mainWhite);
+  background: var(--mainYellow);
 }
 
 .btn-black {
@@ -55,9 +71,27 @@ body {
   color: var(--mainWhite);
 }
 
-.cart-icon {
+.trash-btn {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
   margin-bottom: .5rem;
+}
+
+.main-title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.main-text {
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: .05rem;
+  color: var(--mainPink);
+}
+
+.text-bright {
+  color: var(--lightPink);
 }

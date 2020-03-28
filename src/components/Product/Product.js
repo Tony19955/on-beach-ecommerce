@@ -33,8 +33,8 @@ class Product extends Component {
                 </button>
               </div>
 
-              <p className="product-title text-pink">{title}</p>
-              <h5 className="product-price">${price}</h5>
+              <p className="product-title main-text">{title}</p>
+              <h5 className="product-price main-text">${price}</h5>
             </React.Fragment>
           )}          
         </ProductConsumer>

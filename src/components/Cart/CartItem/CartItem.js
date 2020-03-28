@@ -22,7 +22,7 @@ export default function CartItem({ item, value }) {
         >+
         </button>
       </div>
-      <div className="cart-icon ">
+      <div className="trash-btn">
         <i className="fas fa-trash" onClick={() => removeItem(id)} />
       </div>
       <p className="cartitem-item-total"><strong>Item total: $ {total}</strong></p>

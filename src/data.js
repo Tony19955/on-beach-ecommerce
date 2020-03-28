@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Wavefarer - Boardshorts",
+    title: "Wavefarer boardshorts",
     img: "img/product-1.jpg",
     price: 50,
     company: "Patagonia",
@@ -13,7 +13,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Scallop Hem Stretch Wavefarer - Boardshorts",
+    title: "Scallop Hem Wavefarer boardshorts",
     img: "img/product-2.jpg",
     price: 65,
     company: "Patagonia",
@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "Kid's Costa Rica Baggies Shorts - Boardshorts",
+    title: "Costa Rica Baggies boardshorts",
     img: "img/product-3.jpg",
     price: 17,
     company: "Patagonia",
@@ -37,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Mirage Reidy - Boardshorts",
+    title: "Mirage Reidy boardshorts",
     img: "img/product-4.jpg",
     price: 38,
     company: "Rip Curl",
@@ -49,7 +49,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Mirage Blowout - Boardshorts",
+    title: "Mirage Blowout boardshorts",
     img: "img/product-5.jpg",
     price: 42,
     company: "Rip Curl",
@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Kid's Bungo Beach Shorts - Boardshorts",
+    title: "Kid's Bungo boardshorts",
     img: "img/product-6.jpg",
     price: 15,
     company: "Color Kids",
@@ -73,7 +73,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Cinquentaquattro Badeshort - Boardshorts",
+    title: "Cinquentaquattro boardshorts",
     img: "img/product-7.jpg",
     price: 45,
     company: "Dolomite",
@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Rumy - Boardshorts",
+    title: "Rumy boardshorts",
     img: "img/product-8.jpg",
     price: 80,
     company: "Fire + Ice",
@@ -97,7 +97,7 @@ export const storeProducts = [
   },
   {
     id: 9,
-    title: "Imperial 16 - Boardshorts",
+    title: "Imperial 16 boardshorts",
     img: "img/product-9.jpg",
     price: 39,
     company: "Picture",
@@ -109,7 +109,7 @@ export const storeProducts = [
   },
   {
     id: 10,
-    title: "Kid's Aalto - Boardshorts",
+    title: "Kid's Aalto boardshorts",
     img: "img/product-10.jpg",
     price: 41,
     company: "Finkid",
@@ -121,7 +121,7 @@ export const storeProducts = [
   },
   {
     id: 11,
-    title: "Kid's Mentawais EW Trunk - Boardshorts",
+    title: "Kid's Mentawais boardshorts",
     img: "img/product-11.jpg",
     price: 36,
     company: "Finkid",
@@ -133,7 +133,7 @@ export const storeProducts = [
   },
   {
     id: 12,
-    title: "Andy 17 - Boardshorts",
+    title: "Andy 17 boardshorts",
     img: "img/product-12.jpg",
     price: 50,
     company: "Picture",
@@ -147,7 +147,7 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Wavefarer - Boardshorts",
+  title: "Wavefarer boardshorts",
   img: "img/product-1.jpg",
   price: 50,
   company: "Patagonia",
